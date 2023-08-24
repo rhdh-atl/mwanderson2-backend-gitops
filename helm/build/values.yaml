@@ -1,0 +1,15 @@
+app:
+  name: mwanderson2-poi-backend-app
+  namespace: mwanderson2
+  cluster: .apps.j0i9yf30.eastus2.aroapp.io
+
+git:
+  branch: main
+  repo: https://github.com/rhdh-atl/mwanderson2-backend
+  org: rhdh-atl
+  name: mwanderson2-backend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: mwanderson2/poi-backend-app
+  tag: latest
